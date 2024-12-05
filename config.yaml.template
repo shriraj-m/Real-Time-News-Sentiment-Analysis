@@ -1,0 +1,15 @@
+news:
+  api_key: "YOUR_API_KEY_HERE"
+  keywords: ["AI", "Machine Learning", "Deep Learning", "Artificial Intelligence", "Technology", "Software", "Python"]
+  languages: ["en"]
+  update_interval: 60 # seconds 
+
+kafka:
+  bootstrap_servers: "localhost:9092"
+  raw_topic: "news_raw"
+  cleaned_topic: "news_cleaned"
+
+preprocessing:
+  remove_urls: true
+  remove_special_characters: true
+  remove_extra_spaces: true

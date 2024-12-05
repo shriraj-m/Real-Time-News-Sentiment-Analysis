@@ -1,0 +1,8 @@
+config/config.yaml
+client_id.txt
+__pycache__
+test_newsapi.py
+test_kafka.py
+monitor_kafka.py 
+save_news.py 
+processed_news/
